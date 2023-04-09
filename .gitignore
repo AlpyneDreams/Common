@@ -1,0 +1,14 @@
+# Clang cache
+/.cache
+
+# VS Code settings
+/.vscode/settings.json
+/.vscode/c_cpp_properties.json
+
+# Meson subprojects
+/subprojects/packagecache
+/subprojects/*
+
+# Keep Meson .wrap and package files
+!/subprojects/*.wrap
+!/subprojects/packagefiles
